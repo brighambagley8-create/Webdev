@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Page | Skiing</title>
+  <link rel="stylesheet" href="scratch.css">
+</head>
+<body id="top">
+
+  <div class="header">
+    <h1>Skiing and Why I Love It</h1>
+    <p>This page was created from scratch using HTML and CSS.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="app.html">Web App</a>
+      <a href="#video-section">Jump to Video</a>
+      <a href="#tableau-section">Jump to Tableau</a>
+    </nav>
+  </div>
+
+  <div class="content-box">
+    <h2>Why I Enjoy Skiing</h2>
+    <p>
+      Skiing is one of my favorite things to do because it combines speed, competition, and being outdoors.
+      I like the challenge of getting better, pushing myself, and enjoying the mountains at the same time.
+    </p>
+  </div>
+
+  <div class="content-box">
+    <h2>What I Like Most About Skiing</h2>
+    <ol>
+      <li>
+        Best parts of skiing
+        <ul>
+          <li>Going fast and improving technique</li>
+          <li>Being in the mountains with friends</li>
+          <li>Competing with myself to get better each season</li>
+        </ul>
+      </li>
+      <li>Trying different runs and terrain</li>
+      <li>Enjoying winter and staying active</li>
+    </ol>
+  </div>
+
+  <div class="content-box">
+    <h2>Skiing Photo</h2>
+    <img src="../images/scratch-image.jpg" alt="Skiing photo" class="scratch-image">
+  </div>
+
+  <div class="content-box" id="video-section">
+    <h2>Skiing Video</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/_smOoXDuyJU"
+      title="Candide Thovex skiing video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content-box" id="tableau-section">
+    <h2>Interactive Ski Resort Tableau Graph</h2>
+    <p>
+      This interactive Tableau graph fits the skiing theme by showing ski resort data.
+    </p>
+
+    <div class='tableauPlaceholder' id='skiViz' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Ski Resort Tableau Visualization'
+            src='https://public.tableau.com/static/images/Sk/SkiResort_17024237977550/MapDashboard/1.png'
+            style='border: none'>
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='SkiResort_17024237977550/MapDashboard' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='showVizHome' value='no' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('skiViz');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '700px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <div class="content-box">
+    <h2>Why Skiing Matters to Me</h2>
+    <p>
+      Skiing is something I enjoy because it pushes me to stay active and improve. It is one of those hobbies
+      that is fun, competitive, and a good way to enjoy winter and the mountains.
+    </p>
+  </div>
+
+  <div class="footer">
+    <a href="#top">Back to Top</a>
+  </div>
+
+</body>
+</html>
